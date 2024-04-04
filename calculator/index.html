@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+
+<body>
+    <section class="w-50 mx-auto mt-5 bg-light">
+        <div class="border rounded p-3">
+            <h1 class="text-center text-success fw-semibold">Welcome to Calculate</h1>
+            <div class="calculate">
+                <h3 class="text-dark mb-3">Ruselt: <span id="result"></span></h3>
+                <div class="mb-3">
+                    <label for="inputNumber" class="form-label fw-semibold">Frist Number</label>
+                    <input type="number" class="form-control" id="first-input">
+                </div>
+                <div class="mb-3">
+                    <label for="inputNumber" class="form-label fw-semibold">Arithmetic Operations</label>
+                    <select class="form-select" name="operator" id="operator-field" >
+                        <option value="+">Addition (+)</option>
+                        <option value="-">Subtraction (-)</option>
+                        <option value="*">Multiplication (*)</option>
+                        <option value="/">Division (/)</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="inputNumber" class="form-label fw-semibold">Second Number</label>
+                    <input type="number" class="form-control" id="second-input">
+                </div>
+                <div class="mb-3">
+                    <button id="btn-calculate" class="btn btn-success w-100" >Calculate</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js//calculate.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

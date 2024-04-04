@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+
+<body>
+    <header class="my-12">
+        <h1 class="text-success text-center mt-5 mb-2">Bank Account Management Console Application</h1>
+    </header>
+    <main>
+        <section class="w-75 bg-light mx-auto p-5 rounded">
+            <div class="row row-cols-1 row-cols-lg-3 text-dark">
+                <p class="fw-semibold"><strong>Owner Name</strong> Mafizul Islam John</p>
+                <p class="fw-semibold"><strong>Account Number:</strong> 15071024763322001</p>
+            </div>
+            <!-- Balance Section  -->
+            <div class="row row-cols-1 row-cols-lg-3 g-4 mb-3">
+                <div class="col ">
+                    <div class="bg-success text-white p-4 rounded">
+                        <h4 class="fw-semibold">Deposit</h4>
+                        <p class="fw-semibold">$<span id="total-deposit">00</span></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-warning text-white p-4 rounded">
+                        <h4 class="fw-semibold">Withdraw</h4>
+                        <p class="fw-semibold">$<span id="total-withdraw">00</span></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-primary text-white p-4 rounded">
+                        <h4 class="fw-semibold">Balance</h4>
+                        <p class="fw-semibold">$<span id="total-balance">00</span></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Deposit and Withdrow section  -->
+            <div class="row row-cols-1 row-cols-lg-2 g-4 my-4">
+                <div class="col">
+                    <div class="bg-success text-white p-4 rounded">
+                        <h4 class="fw-semibold">Please Deposit</h4>
+                        <input id="user-deposit" class="form-control mb-3" type="number"
+                            placeholder="$ deposit your money">
+                        <button id="deposit-btn" class="btn btn-warning w-100">Submit</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-danger text-white p-4 rounded">
+                        <h4 class="fw-semibold">Please Withdraw</h4>
+                        <input id="user-withdraw" class="form-control mb-3" type="text"
+                            placeholder="$ Please withdraw your money">
+                        <button id="withdraw-btn" class="btn btn-warning w-100">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/utilis.js"></script>
+    <script src="./js/deposit.js"></script>
+    <script src="./js/withdraw.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

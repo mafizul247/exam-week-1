@@ -1,0 +1,106 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+}
+
+
+.user-profile {
+    text-align: center;
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    background: #FFF6EE;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.profile-image {
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+}
+
+.card h2 {
+    color: #145A32;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #1C2833;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.profile-des {
+    text-align: justify;
+    font-size: 15px;
+    color: #424949;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 18px;
+    margin: 0;
+    padding: 10px 0;
+    color: #1C2833;
+}
+
+.email {
+    margin-bottom: 5px;
+}
+
+.contact i {
+    color: #464646;
+    margin-right: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #1C2833;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: #0000ff;
+}
+
+.follow i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.fa-square-whatsapp {
+    color: #008000;
+}
+
+.fa-facebook {
+    color: #0866FF;
+}
+
+.fa-linkedin {
+    color: #0A66C2;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-square-youtube {
+    color: #FF0000;
+}
